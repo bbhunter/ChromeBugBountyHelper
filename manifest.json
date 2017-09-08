@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Directory detection",
+    "name": "ChromeBugBountyHelper",
     "version": "0.1",
 
     "content_scripts": [{
@@ -8,5 +8,9 @@
             "<all_urls>"
         ],
         "js": ["content.js"]
-    }]
+    }],
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    }
 }
