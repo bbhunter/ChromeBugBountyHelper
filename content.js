@@ -1,6 +1,7 @@
 'use strict'
 const blacklisted = [
-    "google."
+    "google.",
+    "youtube."
 ]
 
 const git = '.git/logs/HEAD'
